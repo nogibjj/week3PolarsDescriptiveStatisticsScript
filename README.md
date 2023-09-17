@@ -5,4 +5,4 @@ In this project, I read nba.csv file using polar. This file contains many player
 
 ## Sample Output
 ![result](sample.png)
-![Age_distribution](Age_distribution.png)
+![Age_distribution](Age_distribution_polar.png)
