@@ -15,7 +15,7 @@ def main():
     plt.ylabel("Frequency")
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig("Age_distribution.png")
+    plt.savefig("Age_distribution_polar.png")
     plt.show()
 
 
