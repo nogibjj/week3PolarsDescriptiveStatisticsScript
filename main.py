@@ -18,5 +18,25 @@ def main():
     plt.savefig("Age_distribution_polar.png")
     plt.show()
 
+    plt.figure(figsize=(10, 6))
+    plt.hist(df["Weight"], bins=10, edgecolor="k", alpha=0.7)
+    plt.title("Distribution of Weight")
+    plt.xlabel("Weight")
+    plt.ylabel("Frequency")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig("Weight_distribution_polar.png")
+    plt.show()
+
+    plt.figure(figsize=(10, 6))
+    plt.hist(df["Salary"], bins=10, edgecolor="k", alpha=0.7)
+    plt.title("Distribution of Salary")
+    plt.xlabel("Salary")
+    plt.ylabel("Frequency")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig("Salary_distribution_polar.png")
+    plt.show()
+
 
 main()
